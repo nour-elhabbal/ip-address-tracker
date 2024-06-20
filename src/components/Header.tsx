@@ -1,5 +1,7 @@
 import { Flex, Heading } from "@chakra-ui/react";
 
+import { headerBg } from "../assets";
+
 import SearchBar from "./SearchBar";
 import InfoCard from "./InfoCard";
 
@@ -9,7 +11,7 @@ const Header = () => {
       as="header"
       align="center"
       direction="column"
-      bgImage="url('src/assets/pattern-bg-desktop.png')"
+      bgImage={`url(${headerBg})`}
       backgroundRepeat="no-repeat"
       minH={{ base: "300px", smallScreen: "275px" }}
       height={{ base: "40vh", smallScreen: "35vh" }}

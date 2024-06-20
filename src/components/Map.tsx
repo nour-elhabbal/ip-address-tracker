@@ -1,8 +1,12 @@
 import { useContext, useEffect, useRef } from "react";
+import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import { Box, Img } from "@chakra-ui/react";
 import { Icon, type Map as LeafletMap } from "leaflet";
-import { MapContainer, TileLayer, Marker } from "react-leaflet";
+
 import "leaflet/dist/leaflet.css";
+
+import { marker } from "../assets";
+
 import { ipInfoContext } from "../contexts/ipInfoContext";
 
 const Map = () => {
@@ -10,7 +14,7 @@ const Map = () => {
   const mapRef = useRef<LeafletMap | null>(null);
 
   const markerIcon = new Icon({
-    iconUrl: "/src/assets/icon-location.svg",
+    iconUrl: marker,
     iconSize: [34, 40],
   });
 

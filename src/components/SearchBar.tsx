@@ -3,7 +3,8 @@ import { Input, InputRightAddon, InputGroup } from "@chakra-ui/react";
 
 import { ipInfoContext } from "../contexts/ipInfoContext";
 import { getIpInfo } from "../apis";
-import arrowIcon from "../assets/icon-arrow.svg";
+
+import { arrowIcon } from "../assets";
 
 const SearchBar = () => {
   const { info, setInfo } = useContext(ipInfoContext);
