@@ -1,6 +1,7 @@
 import { useContext, useEffect, useRef } from "react";
 import { MapContainer, TileLayer, Marker } from "react-leaflet";
-import { Box, Img } from "@chakra-ui/react";
+
+import { Box } from "@chakra-ui/react";
 import { Icon, type Map as LeafletMap } from "leaflet";
 
 import "leaflet/dist/leaflet.css";
