@@ -38,9 +38,9 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://github.com/nour-elhabbal)
 
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://ip-address-tracker-nelh.vercel.app/)
 
 ## My process
 
@@ -62,6 +62,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- github - [nour-elhabbal](https://github.com/nour-elhabbal)
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@nour-elhabbal]()
